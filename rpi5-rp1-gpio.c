@@ -4,8 +4,13 @@
     Praktronics
     GPL3
     
+
     run with sudo or as root for permissions to access to /dev/mem
-   
+    this file is self-contained and should compile with gcc -o rpi5-rp1-gpio rpi5-rp1-gpio.c
+
+    ~/rpi5-rp1-gpio $ gcc -o rpi5-rp1-gpio rpi5-rp1-gpio.c
+    ~/rpi5-rp1-gpio $ sudo ./rpi5-rp1-gpio 
+
 */
 
 
